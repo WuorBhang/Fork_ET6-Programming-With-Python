@@ -3,14 +3,15 @@
 
 """ Variables: Cat Detector
 
-Asks the use for the input "cat", throws an assertion error if the input is wrong
-
+Asks the user for the input "cat", throws an assertion error if the input is wrong
 """
 
 maybe_cat = input('Enter "cat": ')
 
 is_cat = maybe_cat == "cat"
 
-assert is_cat, 'you should have entered "cat"'
+# This assertion will bring an error if is_cat is False/not cat as input
+assert is_cat, 'You should have entered "cat"'
 
-print("thank you for the cat")
+# The results after writing the cat will be printed the thank you message.
+print("Thank you for the cat!")
