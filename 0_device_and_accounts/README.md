@@ -193,5 +193,3 @@ one that looks interesting? give it a try!
   - [ ] [Data Preview](https://marketplace.visualstudio.com/items?itemName=RandomFractalsInc.vscode-data-preview)
   - [ ] [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
   - [ ] [SQL Tools](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools)
-
-Wuor Bhang My name is that...................
