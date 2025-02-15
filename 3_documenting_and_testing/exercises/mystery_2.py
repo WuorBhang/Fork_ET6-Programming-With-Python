@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 def mystery_2(a: list, b: int) -> list:
     """
     Filters a list `a` to include only elements containing the integer `b`.
@@ -31,3 +32,10 @@ def mystery_2(a: list, b: int) -> list:
             c.append(a[0])
         a = a[1:]
     return c
+=======
+def mystery_2(a):
+    if len(a) == 0:
+        return None
+
+    return len(a)
+>>>>>>> 493fa105c419abe6ff758942e2cce0e36388e008

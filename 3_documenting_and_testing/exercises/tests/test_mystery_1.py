@@ -1,4 +1,5 @@
 import unittest
+<<<<<<< HEAD
 from ..mystery_1 import mystery_1
 
 class TestMystery1(unittest.TestCase):
@@ -34,3 +35,14 @@ class TestMystery1(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+=======
+
+from ..mystery_1 import mystery_1
+
+class TestMystery1(unittest.TestCase):
+    """ """
+
+    def test_minimal_input(self):
+        """"""
+        self.assertEqual(mystery_1(0, 0), 0)
+>>>>>>> 493fa105c419abe6ff758942e2cce0e36388e008

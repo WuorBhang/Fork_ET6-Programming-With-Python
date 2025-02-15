@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 def mystery_4(a: list[int], b: int) -> list[int]:
     """
     Filters a list `a` to include only integers that are equal to `b`.
@@ -30,3 +31,14 @@ def mystery_4(a: list[int], b: int) -> list[int]:
         if d == b:
             c.append(d)
     return c
+=======
+def mystery_4(a):
+    b = []
+
+    c = 0
+    while len(b) < a:
+        b.append(c)
+        c = c + 1
+
+    return b
+>>>>>>> 493fa105c419abe6ff758942e2cce0e36388e008

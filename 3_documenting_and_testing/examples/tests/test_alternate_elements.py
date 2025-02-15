@@ -14,6 +14,10 @@ Author: Claude AI
 """
 
 import unittest
+<<<<<<< HEAD
+=======
+
+>>>>>>> 493fa105c419abe6ff758942e2cce0e36388e008
 from ..alternate_elements import alternate_elements
 
 class TestAlternateElements(unittest.TestCase):

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 def mystery_1(a):
     """
     Sorts a list of integers in ascending order using the Bubble Sort algorithm.
@@ -30,3 +31,7 @@ def mystery_1(a):
             if a[d] > a[d + 1]:
                 a[d], a[d + 1] = a[d + 1], a[d]
     return a
+=======
+def mystery_1(a,b):
+    return a + b
+>>>>>>> 493fa105c419abe6ff758942e2cce0e36388e008

@@ -143,7 +143,11 @@ simple. For the above example the symptom corresponds to the line where the
 variable went out of bounds or to the `print`s which produced the garbage output.
 The incorrect behavior will correspond to a variable with a bad value. Identify
 the variable(s) with bad values. For this example, suppose that the program
+<<<<<<< HEAD
 crashes on line 112 because i is -1 and tries to index an array.
+=======
+crashes on line 112 because i is -1 and tries to index an list.
+>>>>>>> 493fa105c419abe6ff758942e2cce0e36388e008
 
 The critical question is: where did i get its value? There are basically three
 ways a variable can get a value: the variable appears on the left hand side of a

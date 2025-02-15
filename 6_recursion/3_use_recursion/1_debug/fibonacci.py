@@ -8,22 +8,17 @@ import os
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
 
-from trace_recursion import trace_recursion
-
-
-@trace_recursion
 def fibonacci(n: int) -> int:
     """
-    
+    Calculate the nth Fibonacci number.
     """
     if n < 0:
         return 0
-
+    if n == 0:
+        return 0
     if n == 1:
         return 1
-
-    return fibonacci(n + 1) - fibonacci( n + 2)
-
+    return fibonacci(n - 1) + fibonacci(n - 2)
 
 # --- call the traced function ---
 

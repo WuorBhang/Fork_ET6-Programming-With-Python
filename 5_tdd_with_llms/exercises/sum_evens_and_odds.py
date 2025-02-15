@@ -4,6 +4,7 @@ Write a function that takes a list of numbers
 and returns a dictionary with sums of the even and odd numbers in the list.
 
 """
+<<<<<<< HEAD
 
 
 def sum_evens_and_odds(numbers):
@@ -27,3 +28,5 @@ def sum_evens_and_odds(numbers):
     even_sum = sum(num for num in numbers if num % 2 == 0)
     odd_sum = sum(num for num in numbers if num % 2 != 0)
     return {"even": even_sum, "odd": odd_sum}
+=======
+>>>>>>> 493fa105c419abe6ff758942e2cce0e36388e008

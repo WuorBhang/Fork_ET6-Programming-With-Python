@@ -4,6 +4,7 @@ Write a function that takes in a string, a single character, and a number.
 The function returns a string with each occurrence of the character repeated n times.
 
 """
+<<<<<<< HEAD
 
 
 def repeat_character(string, char, n):
@@ -25,3 +26,5 @@ def repeat_character(string, char, n):
         return string
     else:
         return string.replace(char, char * n)
+=======
+>>>>>>> 493fa105c419abe6ff758942e2cce0e36388e008
