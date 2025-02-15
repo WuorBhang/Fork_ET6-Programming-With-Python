@@ -7,4 +7,7 @@ __pycache__
 *.ruff_cache
 *.mp4
 *.cover
+*.excalidraw
 plann.txt
+exercises_with_notes
+.staging

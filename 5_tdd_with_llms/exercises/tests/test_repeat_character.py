@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import unittest
 from ..repeat_character import repeat_character
 
@@ -32,3 +33,5 @@ class TestRepeatCharacter(unittest.TestCase):
         actual = repeat_character("hello", "l", 0)
         expected = "hello"
         self.assertEqual(actual, expected)
+=======
+>>>>>>> 493fa105c419abe6ff758942e2cce0e36388e008

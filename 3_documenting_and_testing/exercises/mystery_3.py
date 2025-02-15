@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 def mystery_3(a: list, b: list = None) -> list:
     """
     Sorts a list of integers in ascending order using a manual implementation of Selection Sort.
@@ -32,3 +33,12 @@ def mystery_3(a: list, b: list = None) -> list:
         a.remove(c)
         b.append(c)
     return b
+=======
+def mystery_3(a, b):
+    if a < b:
+        return a
+    elif a > b:
+        return b
+    else:
+        return a + b
+>>>>>>> 493fa105c419abe6ff758942e2cce0e36388e008

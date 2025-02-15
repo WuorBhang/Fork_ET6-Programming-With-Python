@@ -1,8 +1,10 @@
 import unittest
 from ..mystery_4 import mystery_4
 
+from ..mystery_4 import mystery_4
 
 class TestMystery4(unittest.TestCase):
+<<<<<<< HEAD
     def test_1(self):
         """It should return all instances of the integer 2."""
         actual = mystery_4([1, 2, 3, 4, 2, 5], 2)
@@ -32,3 +34,10 @@ class TestMystery4(unittest.TestCase):
         actual = mystery_4([1, 2, 3, 4, 5], 6)
         expected = []
         self.assertEqual(actual, expected)
+=======
+    """ """
+
+    def test_minimal_input(self):
+        """"""
+        self.assertEqual(mystery_4(0), [])
+>>>>>>> 493fa105c419abe6ff758942e2cce0e36388e008

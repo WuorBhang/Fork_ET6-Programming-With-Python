@@ -6,14 +6,14 @@ GitHub account and device so you're ready to start strong.
 
 We will consider your device when assessing your Foundations Track deliverables,
 you will not be penalized if you do not have a desktop/laptop. The best option
-for programming if you don't have a laptop/desktop is to use GitHub Codespaces:
+for programming if you don't have a laptop/desktop is to use GitHub Codespaces or [VSCode.dev](https://vscode.dev):
 
 - **A mobile device or tablet**: You can complete the Fundamentals Track
-  deliverables using your GitHub account and GitHub Codespaces. It will be less
+  deliverables using your GitHub account and GitHub Codespaces or VSCode.dev. It will be less
   convenient to type without a full keyboard, but it is possible.
 - **A shared laptop/desktop where you cannot install software**: You can
   download Python scripts to study without saving changes, and you can use
-  GitHub Codespaces to finalize and push your deliverables.
+  GitHub Codespaces or VSCode.dev to finalize and push your deliverables.
 - **A laptop/desktop where you can install software but don't have a private
   account**: You can install and configure VSCode and clone class materials to
   the device, but you won't want to connect the computer to GitHub with SSH -
@@ -90,11 +90,12 @@ your study time and to measure your progress:
 
 ### Background Study
 
-Take a first look through the [Suggested Study](../suggested-study/) resources
-focusing on these resources:
+Take a first look through the [Suggested Study](../suggested_study/) resources
+focusing on these topics.  Suggested Study is just a suggestion!  You can study these topics using any resources in any language you prefer:
 
 - [ ] **README**: Learning in Public, Being a Developer, Markdown and READMEs
 - [ ] **Tech Foundations**: The Internet
+- [ ] **CLI**: _especially the games_
 - [ ] **Git and GitHub**: Git (_especially the games_)
 
 ### Create Your GitHub Account
@@ -112,7 +113,7 @@ focusing on these resources:
       required if you are using a laptop/desktop where you have a private
       account._)
   - This can be tricky! we're here to help each other on Slack, and there are
-    resources in [Suggested Study](../suggested-study/)
+    resources in [Suggested Study](../suggested_study/)
 
 ### Install Software
 

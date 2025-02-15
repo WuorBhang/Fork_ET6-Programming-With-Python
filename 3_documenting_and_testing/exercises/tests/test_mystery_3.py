@@ -1,4 +1,5 @@
 import unittest
+<<<<<<< HEAD
 from ..mystery_3 import mystery_3
 
 class TestMystery3(unittest.TestCase):
@@ -32,3 +33,14 @@ class TestMystery3(unittest.TestCase):
         expected = [9]
         self.assertEqual(actual, expected)
 
+=======
+
+from ..mystery_3 import mystery_3
+
+class TestMystery3(unittest.TestCase):
+    """ """
+
+    def test_minimal_input(self):
+        """"""
+        self.assertEqual(mystery_3(0, 0), 0)
+>>>>>>> 493fa105c419abe6ff758942e2cce0e36388e008
